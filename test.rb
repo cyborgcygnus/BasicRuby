@@ -27,7 +27,12 @@ if 1_num > 2_num
 elsif 2_num > 1_num
   print "#{2_num} is greater than #{1_num}"
 else
-  print "#{1_num} and equal to #{2_num}"
+  print "#{1_num} and #{2_num} are of equal value"
 end
 
 gets
+=being
+The above gets is purely so that ruby remains open after you've inputed your two figures
+& displays the output, otherwise normally it would just close without
+showing you any result at all. A little trick I leart from the ruby irc on freenode
+=end
