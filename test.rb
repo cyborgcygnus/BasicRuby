@@ -7,27 +7,27 @@
 =begin
 The following code after =end will ask
 for the users input for a number & set that
-as 1_num
+as "a"
 =end
 
 print "Please input a number & push enter: "
-1_num = Integer(gets.chomp)
+a = Integer(gets.chomp)
 
 =begin
 The following code after =end will ask
 for the user for a number input & set that
-as 2_num
+as "b"
 =end
 
 print "Now enter a second number: "
-2_num = Integer(gets.chomp)
+b = Integer(gets.chomp)
 
-if 1_num > 2_num
-  print "#{1_num} is greater than #{2_num}"
-elsif 2_num > 1_num
-  print "#{2_num} is greater than #{1_num}"
+if a > b
+  print "#{a} is greater than #{b}"
+elsif b > a
+  print "#{b} is greater than #{a}"
 else
-  print "#{1_num} and #{2_num} are of equal value"
+  print "#{a} and #{b} are of equal value"
 end
 
 gets
