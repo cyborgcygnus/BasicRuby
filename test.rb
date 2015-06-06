@@ -19,7 +19,7 @@ for the user for a number input & set that
 as 2_num
 =end
 
-print "Now enter a second number"
+print "Now enter a second number: "
 2_num = Integer(gets.chomp)
 
 if 1_num > 2_num
