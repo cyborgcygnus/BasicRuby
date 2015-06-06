@@ -31,7 +31,7 @@ else
 end
 
 gets
-=being
+=begin
 The above gets is purely so that ruby remains open after you've inputed your two figures
 & displays the output, otherwise normally it would just close without
 showing you any result at all. A little trick I leart from the ruby irc on freenode
